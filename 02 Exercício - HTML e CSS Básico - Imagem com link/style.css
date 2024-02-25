@@ -1,0 +1,45 @@
+body{
+    background-image: url(./imagens/google.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Pesquise-aqui img{
+    position: absolute;
+    top: 260px;
+    width: 400px;
+    height: auto;
+}
+
+#seta img {
+    position: absolute;
+    top: 320px;
+    width: 80px;
+    height: auto;
+}
+
+#google-link img{
+    position: relative;
+    top: 480px;
+    width: 120px;
+    height: auto;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer img {
+    width: 15px;
+}

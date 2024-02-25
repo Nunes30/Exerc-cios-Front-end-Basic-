@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(./imagens/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    font-size: 30px;
+}
+
+caption{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.container-01{
+    display: flex;
+}
+
+.produtos-moda-01 img{
+    position: relative;
+    width: 400px;
+    margin: 60px 100px 30px;
+}
+
+.produtos-moda-02 img{
+    position: relative;
+    width: 400px;
+    margin: 60px 0 30px;
+}
+
+.tabela-01{
+    text-align: center;
+    width: 560px;
+    height: 325px;
+    background-color: #ffffff ;
+    margin: 0 280px;
+}
+
+.moda-table{
+    width: 550px;
+    height: 220px;
+    margin: 0 5px;
+}
+  
+.container-02{
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos-casa-01 img{
+    width: 435px;
+    margin: 70px 1250px 0;
+}
+
+.produtos-casa-02 img{
+    width: 435px;
+    margin: 0 1250px;
+}
+
+.tabela-02{
+    text-align: center;
+    width: 434px;
+    height: 300px;
+    background-color: #ffffff ;
+    margin: 0 1251px;
+}
+
+.casa-table{
+    width: 420px;
+    height: 192px;
+    margin: 0 5px;
+}
+
+#color-01{
+    background-color: #bb86fc;
+    color: #ffffff;
+}
+
+#color-02, #color-04{
+    background-color: #424250;
+    color: #ffffff; 
+}
+
+#color-03{
+    background-color: #00c4b4;
+    color: #ffffff;
+}
